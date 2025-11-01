@@ -1,4 +1,84 @@
 baseURL = 'https://dev.806.group/'
 languageCode = 'zh-cn'
-title = '806-DEV Blog'
+title = '806-DEV 技术导航'
 theme = 'DoIt'
+
+[params]
+  # 网站描述
+  description = "专注于技术学习与分享的知识库，提供系统化的学习路径和实用的技术指南"
+  
+  # 关键词
+  keywords = ["前端开发", "后端开发", "GUI开发", "系统维护", "技术学习", "学习路径"]
+  
+  # 作者信息
+  [params.author]
+    name = "806-DEV团队"
+    email = "dev806group@example.com"
+    link = "https://github.com/USTB-806"
+  
+  # 导航菜单配置
+  [params.header]
+    # 桌面端导航模式
+    desktopMode = "fixed"
+    # 移动端导航模式
+    mobileMode = "auto"
+    # 标题配置
+    [params.header.title]
+      # LOGO
+      logo = ""
+      # 名称
+      name = "806-DEV"
+      # 预加载
+      pre = ""
+      # 后加载
+      post = "技术导航"
+
+# 菜单配置 - 仅保留三个主要模块
+[[menu.main]]
+  identifier = "index"
+  name = "Index"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+# 首页配置 - 禁用文章列表显示
+[params.home]
+  [params.home.posts]
+    enable = false
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+# 社交媒体链接
+[params.social]
+  GitHub = "https://github.com/USTB-806/dev.806.group"
+  # Twitter = "https://twitter.com/yourusername"  # 如果有Twitter账号可以取消注释
+
+# 搜索配置
+[params.search]
+  enable = true
+  type = "algolia"
+  
+# 评论配置
+[params.comment]
+  enable = true
+  
+# 页面配置
+[params.page]
+  # 是否显示最后更新时间
+  lastmod = true
+  # 是否显示字数统计
+  wordCount = true
+  # 是否显示阅读时间
+  readingTime = true
