@@ -148,7 +148,7 @@ theme = 'DoIt'
       comment = true
     # Giscus 评论系统设置 (推荐使用，基于 GitHub Discussions)
     [params.page.comment.giscus]
-      enable = false
+      enable = true
       # owner/repo
       dataRepo = ""
       dataRepoId = ""
