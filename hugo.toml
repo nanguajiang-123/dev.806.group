@@ -1,6 +1,6 @@
 baseURL = 'https://dev.806.group/'
 languageCode = 'zh-cn'
-title = '806-DEV 技术导航'
+title = '806-DEV 知识库'
 theme = 'DoIt'
 
 [params]
@@ -31,7 +31,7 @@ theme = 'DoIt'
       # 预加载
       pre = ""
       # 后加载
-      post = "技术导航"
+      post = "知识库"
 
 # 首页配置 - 禁用文章列表显示
 [params.home]
