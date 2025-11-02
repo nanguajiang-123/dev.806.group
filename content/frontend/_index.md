@@ -4,154 +4,123 @@ date: 2024-11-01
 draft: false
 ---
 
-# 【施工中，敬请期待】
-
 前端开发是构建现代Web应用的核心技术，从基础的HTML/CSS到复杂的前端框架，本路径将带你系统掌握前端开发的全部技能。
 
-## 📚 学习路线图
+参考资料： 
+[技术胖的前端学习路径](https://gitee.com/jishupang/web_atlas#%E6%8A%80%E6%9C%AF%E8%83%96%E7%9A%84%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84)
 
-### 阶段一：Web基础 (2-3周)
-**目标**: 掌握HTML5和CSS3的核心概念和实践
 
-**学习内容**:
-- [ ] HTML5 语义化标签
-  - 文档结构 (header, nav, main, section, article, footer)
-  - 表单元素和验证
-  - 多媒体标签 (audio, video, canvas)
-- [ ] CSS3 核心特性
-  - 选择器和层叠规则
-  - 盒模型和布局 (Flexbox, Grid)
-  - 响应式设计 (媒体查询)
-  - 动画和过渡效果
-- [ ] 浏览器兼容性
-  - 现代浏览器特性检测
-  - Polyfill和Fallback方案
+## Internet/网络知识
 
-**实践项目**: 创建响应式个人简历页面
+- 网络工作原理
+- HTTP/HTTPS 是什么
+- 浏览器工作原理
+- DNS
+    - 域名
+    - 解析
+- 云服务
+- 网络代理
 
-### 阶段二：JavaScript核心 (3-4周)
-**目标**: 深入理解JavaScript语言特性和DOM操作
+## HTML/超文本标记语言
 
-**学习内容**:
-- [ ] JavaScript基础语法
-  - 变量、数据类型、运算符
-  - 控制结构、函数、对象
-  - ES6+新特性 (let/const, 箭头函数, 解构赋值)
-- [ ] DOM操作和事件处理
-  - 元素选择和操作
-  - 事件模型和事件委托
-  - 表单验证和用户交互
-- [ ] 异步编程
-  - Promise和async/await
-  - Fetch API和AJAX
-  - 错误处理机制
+- HTML 基础知识
+- live server 使用
+- SEO
 
-**实践项目**: 开发待办事项应用 (Todo List)
+## CSS/层叠样式表
 
-### 阶段三：前端框架 (4-6周)
-**目标**: 掌握主流前端框架的使用和原理
+- CSS 基础知识
+- 页面切图和布局实现
 
-**学习内容**:
-- [ ] React生态系统
-  - React基础和组件化思想
-  - Hooks和状态管理
-  - React Router路由管理
-  - Redux/Zustand状态管理库
-- [ ] Vue.js生态系统
-  - Vue3组合式API
-  - Vue Router和Pinia
-  - 组件通信和状态管理
-- [ ] 构建工具和开发环境
-  - Vite/Webpack配置
-  - Babel转译
-  - ESLint和Prettier代码规范
+## JavaScript/浏览器脚本语言
 
-**实践项目**: 开发一个完整的博客系统
+- JavaScript 基础知识
+- node.js 简介
+- DOM/BOM 操作
+- AJAX 与 Axios
+- 新ES6+ 特性
+- TypeScript 基础
 
-### 阶段四：前端工程化 (2-3周)
-**目标**: 掌握现代前端工程化实践
+## Web Security/网络安全相关知识
 
-**学习内容**:
-- [ ] 模块化开发
-  - ES Modules和CommonJS
-  - 代码分割和懒加载
-  - 组件库设计
-- [ ] 测试驱动开发
-  - 单元测试 (Jest, Vitest)
-  - 组件测试 (React Testing Library)
-  - E2E测试 (Cypress, Playwright)
-- [ ] 性能优化
-  - 代码分割和懒加载
-  - 图片优化和CDN
-  - 缓存策略
+- HTTPS 原理和使用
+- CORS 跨域资源共享
+- 内容安全策略 (CSP)
+- 其他常见网络协议
+    - WebSocket
+    - SSE
 
-**实践项目**: 优化现有项目的性能和用户体验
+## Package Managers/包管理工具
 
-### 阶段五：高级主题 (持续学习)
-**目标**: 探索前端前沿技术和最佳实践
+- npm/cnpm
+- yarn
+- pnpm
 
-**学习内容**:
-- [ ] TypeScript开发
-  - 类型系统和高级类型
-  - 泛型和类型体操
-  - 与React/Vue集成
-- [ ] 微前端架构
-  - 微前端概念和实现方案
-  - Module Federation
-  - 状态管理和通信
-- [ ] 服务端渲染 (SSR)
-  - Next.js/Nuxt.js
-  - SEO优化
-  - 性能优化策略
+## CSS Preprocessors/ CSS 预处理器
 
-## 🛠️ 相关文章
+- Sass / SCSS
+- Less
 
-### HTML/CSS基础
-- [HTML5语义化标签详解](/posts/frontend/html5-semantic-tags/)
-- [CSS Grid布局完全指南](/posts/frontend/css-grid-complete-guide/)
-- [响应式设计最佳实践](/posts/frontend/responsive-design-best-practices/)
+## Build Tools/构建工具
 
-### JavaScript进阶
-- [JavaScript异步编程详解](/posts/frontend/javascript-async-programming/)
-- [ES6+新特性实战](/posts/frontend/es6-plus-features/)
-- [DOM操作性能优化](/posts/frontend/dom-performance-optimization/)
+- 任务执行命令
+    - npm
+- 打包工具
+    - Webpack
+    - Vite
+- 代码格式化工具
+    - Eslint
+    - Prettier
 
-### 框架实战
-- [React Hooks最佳实践](/posts/frontend/react-hooks-best-practices/)
-- [Vue3组合式API详解](/posts/frontend/vue3-composition-api/)
-- [状态管理方案对比](/posts/frontend/state-management-comparison/)
+## Frontend Frameworks/前端框架
 
-### 工程化实践
-- [Vite配置与优化](/posts/frontend/vite-configuration/)
-- [前端测试策略](/posts/frontend/frontend-testing-strategy/)
-- [性能优化实战案例](/posts/frontend/performance-optimization-cases/)
+- React
+- Vue.js
+- Angular
 
-## 📖 推荐资源
+## Web Components/Web 组件化编程
 
-### 官方文档
-- [MDN Web文档](https://developer.mozilla.org/zh-CN/)
-- [React官方文档](https://react.dev/)
-- [Vue.js官方文档](https://cn.vuejs.org/)
+- HTML Templates
+- Custom Elements
+- Shadow DOM
 
-### 在线课程
-- [freeCodeCamp](https://www.freecodecamp.org/)
-- [Frontend Masters](https://frontendmasters.com/)
-- [JavaScript.info](https://javascript.info/)
+## CSS Frameworks/CSS 框架
 
-### 工具推荐
-- **开发工具**: VS Code, WebStorm
-- **调试工具**: Chrome DevTools, React DevTools, Vue DevTools
-- **构建工具**: Vite, Webpack, Parcel
-- **包管理**: npm, yarn, pnpm
+- 有哪些 CSS 框架，它们的优缺点
+    - https://www.wbolt.com/css-frameworks.html
+- Tailwind CSS
 
-## 🎯 学习建议
+## Server Side Rendering （SSR）/服务器端渲染
 
-1. **循序渐进**: 按照学习路径逐步掌握，不要跳过基础直接学框架
-2. **项目驱动**: 每个阶段都要配合实际项目，加深理解
-3. **关注标准**: 紧跟Web标准和最佳实践
-4. **社区参与**: 参与开源项目，学习优秀代码
-5. **持续学习**: 前端技术更新很快，保持学习的习惯
+- SSR/CSR 概念
+- React.js
+- Vue.js
+
+## GraphQL/图形化编程
+
+- Cocos Creator
+- Three.js
+
+## Static Site Generators/静态站点生成器
+
+- Next.js
+- Vuepress
+- Nuxt.js
+- Hugo
+
+## Mobile Applications/移动 App 开发
+
+- React Native
+- UniApp
+- Flutter
+- Ionic
+
+## Desktop Applications/桌面应用开发
+
+- Electron
+- Tauri
+- NW.js
 
 ---
 
-> 📋 **说明**: 此页面内容参考了 [技术胖的前端学习路径](https://gitee.com/jishupang/web_atlas#%E6%8A%80%E6%9C%AF%E8%83%96%E7%9A%84%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84)，并持续更新中！
+>  ＼(*T▽T*)／ 
